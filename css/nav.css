@@ -76,6 +76,7 @@ nav .icon__burger .line{
         float: none;
         width: auto;
         justify-content: start;
+        font-size: 1.8rem;
     }    
 
     nav .links{
@@ -83,8 +84,9 @@ nav .icon__burger .line{
         float: none;
         position: fixed;
         z-index: 9;
-        background-color: var(--blanco__blur);
-        backdrop-filter: blur(10px);
+        background: url(../assets/ingredients__ilustration.avif);
+        background-position: center;
+        background-size: contain;
         left: 0; right: 0;
         top: 100px; bottom: 100%;
         flex-direction: column;
@@ -93,11 +95,10 @@ nav .icon__burger .line{
         overflow: hidden;
         transition: all .5s ease-in-out;
         justify-content: space-evenly;
-        border-bottom: solid 10px var(--blanco);
     }
 
     nav .links a{
-        color: var(--azul__oscuro);
+        color: var(--blanco);
         width: 100vw;
         text-align: center;
         font-size: 1.6rem;
