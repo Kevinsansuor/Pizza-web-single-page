@@ -18,21 +18,17 @@
     height: 80vh;
     display: flex;
     object-fit: contain;
-    animation: float 6s ease-in-out infinite;
-    filter: drop-shadow(0px 0px 25px var(--azul__oscuro));
+    animation: float 20s ease-in-out infinite;
+    filter: drop-shadow( 20px 20px 60px #d9d9d9);
 }
 
 @keyframes float {
 	0% {
 		
-		transform: translatey(0px);
-	}
-	50% {
-		
-		transform: translatey(-20px);
+		transform: rotate(360deg);
 	}
 	100% {
 		
-		transform: translatey(0px);
+		transform:rotate(0deg);
 	}
 }
