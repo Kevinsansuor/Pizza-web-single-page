@@ -160,7 +160,7 @@
     height: 100%;
     margin: auto;
     left: 0; right: 0;
-    transform: translateY(-50%);
+    transform: translateY(-50%) translateX(70%);
 }
 .banner__principal .image .contain {
     position: absolute;
