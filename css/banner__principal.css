@@ -13,7 +13,7 @@
     backdrop-filter: blur(5px) ;
     -webkit-backdrop-filter: blur(5px) ;
     border-radius: 25px;
-    border: solid var(--blanco__blur) 2px;
+    border: solid var(--morado__oscuro__blur) 5px;
     z-index: 6;
 }
 
@@ -60,7 +60,7 @@
     color: var(--morado__oscuro);
     background-color: var(--blanco__blur);
     box-shadow: var(--box__shadow);
-    border: solid 2.5px var(--verde__marino);
+    border: solid 2.5px var(--morado__oscuro__blur);
     text-align: center;
     backdrop-filter: blur(10px);
     transition: .5s;
@@ -114,7 +114,7 @@
 }
 
 .header .titulo{
-    font-size: 4.5rem;
+    font-size: 7.5rem;
     font-family: var(--header__font);
     color: var(--azul__oscuro);
     line-height: 6rem;
@@ -147,7 +147,7 @@
     color: var(--morado__oscuro);
     background-color: var(--blanco__blur);
     box-shadow: var(--box__shadow);
-    border: solid 1.5px var(--blanco__blur);
+    border: solid 2.5px var(--morado__oscuro__blur);
     text-align: center;
     backdrop-filter: blur(10px);
     transition: .5s;
@@ -185,7 +185,7 @@
 }
 
 .header .titulo{
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     font-family: var(--header__font);
     color: var(--azul__oscuro);
     line-height: inherit;
