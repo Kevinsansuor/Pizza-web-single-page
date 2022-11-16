@@ -51,6 +51,25 @@ nav .links a{
     padding: 1.5rem;
     transition: .5s;
     transform: 1s;
+    position: relative;
+}
+
+nav .links a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--verde__marino);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+nav .links a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 nav .links a:hover{
@@ -119,20 +138,6 @@ nav .icon__burger .line{
         text-align: center;
         font-size: 1.6rem;
         font-weight: bold;
-    }
-
-    nav .links a:active
-    {
-        transform: none;
-        background-color: var(--azul__oscuro);
-        color: var(--blanco);
-        transition: all .1s ease-in-out;
-    }
-
-    nav .links a:hover{
-       background-color: var(--azul__oscuro);
-        color: var(--blanco);
-        transition: all .2s ease-in-out; 
     }
 
     nav .icon__burger{

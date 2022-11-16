@@ -74,6 +74,14 @@ p{
 }
 
 
+#scroll-progress {
+  position: fixed;
+  top: 100px;
+  width: 0%;
+  height: 5px;
+  background: var(--verde__marino__blur);
+  z-index: 10000;
+}
 
 
 .ajustador{
