@@ -1,7 +1,7 @@
 .banner__principal{
     height: calc(100vh - 100px);
     width: 100%;
-    background: url(/assets/bg__images/marmolblanco.jpg)no-repeat;
+    background: url(../assets/bg__images/marmolblanco.jpg)no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: row-reverse;
