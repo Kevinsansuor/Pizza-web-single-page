@@ -4,29 +4,46 @@
     --crema: hsla(0, 0%, 92%, 0.329);
     --blanco: #ffffff;
 
-    --blanco__blur: rgba(255, 255, 255, 0.199);
+    --blanco__blur: hsla(0, 0%, 100%, 0.521);
 
     --morado__oscuro: #22223b;
 
     --morado__oscuro__blur: rgba(34, 34, 59, 0.637);
 
-    --azul__oscuro: #000814;
+    --azul__oscuro: #000814d3;
 
     --verde__marino: #0f4c5c;
+    --verde__marino__blur: hsla(192, 72%, 21%, 0.384);
+    --verde__marino__blur__menos: hsla(192, 72%, 21%, 0.678);
 
     --header__font: 'Fraunces', serif;
     --title__font: 'Fira Sans', sans-serif;
     --text__font: 'Noto Sans', sans-serif;
 
-    --box__shadow: 0px 0px 15px var(--azul__oscuro);
+    --box__shadow: 
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+
+    --image__shadow: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.274));
+
+    
 }
 
 html{
     scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 body{
-    background-color: var(--crema);
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
     color: var(--azul__oscuro);
     transition: .5s;
     font-family: var(--text__font);
