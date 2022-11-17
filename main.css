@@ -76,7 +76,7 @@ p{
 
 #scroll-progress {
   position: fixed;
-  top: 100px;
+  top: 0%;
   width: 0%;
   height: 5px;
   background: var(--verde__marino__blur);
